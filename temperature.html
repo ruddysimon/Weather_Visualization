@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <!--META TAGS-->
+        <meta charset="utf-8"/>
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ruddy Simonpour">
+        <meta name="description" content="Analyze how weather changes as you get closer to the equator.">
+
+        <!--BOOTSTARP CSS-->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="Styles.css">
+        <title>WeatherPy - Ruddy Simonpour</title>
+
+    </head>
+
+    <!--BODY-->
+
+    <!--NAVBAR-->
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="index.html">Latitude</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                       
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                          </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link " href="comparisons.html" tabindex="-1" >Comparisons</a>
+                        </li>
+                        <li class = "nav-item">
+                          <a class = "nav-link " href="data.html" tabindex="-1" >Data</a>
+                        </li>
+                        
+                        </ul>
+                      
+                    </div>
+                </nav>
+
+                <!--JUMBOTRON-->
+                <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-4">Temperature Vs. Latitude</h1>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                            <img src="Resources/assets/images/Latitude_vs_max_temp.png" alt="Max Temperature">
+                        </div>
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                <p class="lead">As expected, the graph looks a like a hemisphere and the weather becomes warmer when we approches to the range of 0 to 20 degree in latitude.
+                                     .</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center">Humidity Vs. Latitude</a></h5>
+                                        </div>
+                                        <img style="height: 200px; width: 100%; display: block;" src="Resources/assets/images/Latitude_vs_humidity.png" alt="Humidity Graph">
+                                        <div class="card-footer text-muted" style="text-align: center">
+                                            <a href="humidity.html" class="card-link">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center">Wind Vs. Latitude</a></h5>
+                                        </div>
+                                        <img style="height: 200px; width: 100%; display: block;" src="Resources/assets/images/Latitude_vs_wind.png" alt="Wind Speed Graph">
+                                        <div class="card-footer text-muted" style="text-align: center">
+                                            <a href="temperature.html" class="card-link">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center">Cloudiness Vs. Latitude</a></h5>
+                                        </div>
+                                        <img style="height: 200px; width: 100%; display: block;" src="Resources/assets/images/Latitude_vs_cloudiness.png" alt="Cloudiness Graph">
+                                        <div class="card-footer text-muted" style="text-align: center">
+                                            <a href="cloudiness.html" class="card-link">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+
+
+                        <footer class="footer">
+                                <div class="container">
+                                  <a href="https://github.com/ruddysimon" target="_blank">
+                                    <i class="fab fa-github fa-2x"></i>
+                                  </a>
+                                  
+                                  <a href="mailto:ruddy.simonpour@gmail.com">
+                                    <i class="fas fa-at fa-2x"></i>
+                                  </a>
+                                  <p class="text text-center">
+                                    <small>© Copyright Ruddy Simonpour 2019</br>
+                                    UCSD© Bootcamp Data Science and Visualization</small>
+                                  </p>
+                                </div>
+                              </footer>
+                
+                        <!-- Optional JavaScript -->
+                        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </body>       
+                
+    </html>
+                

@@ -1,0 +1,27 @@
+body {
+    background: #c6c9d6e3;
+    color: #969696;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.navbar-brand{
+	font-family: "Roboto", serif;
+	font-weight: 800;
+	font-size: 20px;
+    margin-left: auto;
+    
+}
+
+
+
+
+footer.footer{
+	background-color:#2d3238;
+	border-radius: .3rem;
+	text-align: center;
+	padding: 5px 5px;
+}
